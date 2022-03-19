@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		434C06C621C0D1AB000D21DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434C06C521C0D1AB000D21DB /* AppDelegate.swift */; };
+		434C06C821C0D1AB000D21DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434C06C721C0D1AB000D21DB /* ViewController.swift */; };
+		434C06CB21C0D1AB000D21DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 434C06C921C0D1AB000D21DB /* Main.storyboard */; };
+		434C06CD21C0D1AD000D21DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 434C06CC21C0D1AD000D21DB /* Assets.xcassets */; };
+		434C06D021C0D1AD000D21DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 434C06CE21C0D1AD000D21DB /* LaunchScreen.storyboard */; };
+		434C06DB21C0D1AD000D21DB /* Marcos_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434C06DA21C0D1AD000D21DB /* Marcos_AppTests.swift */; };
+		434C06E621C0D1AE000D21DB /* Marcos_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434C06E521C0D1AE000D21DB /* Marcos_AppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		434C06D721C0D1AD000D21DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 434C06BA21C0D1AB000D21DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 434C06C121C0D1AB000D21DB;
+			remoteInfo = "Marcos App";
+		};
+		434C06E221C0D1AE000D21DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 434C06BA21C0D1AB000D21DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 434C06C121C0D1AB000D21DB;
+			remoteInfo = "Marcos App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		434C06C221C0D1AB000D21DB /* Marcos App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Marcos App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		434C06C521C0D1AB000D21DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		434C06C721C0D1AB000D21DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		434C06CA21C0D1AB000D21DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		434C06CC21C0D1AD000D21DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		434C06CF21C0D1AD000D21DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		434C06D121C0D1AD000D21DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		434C06D621C0D1AD000D21DB /* Marcos AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Marcos AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		434C06DA21C0D1AD000D21DB /* Marcos_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Marcos_AppTests.swift; sourceTree = "<group>"; };
+		434C06DC21C0D1AD000D21DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		434C06E121C0D1AE000D21DB /* Marcos AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Marcos AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		434C06E521C0D1AE000D21DB /* Marcos_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Marcos_AppUITests.swift; sourceTree = "<group>"; };
+		434C06E721C0D1AE000D21DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		434C06BF21C0D1AB000D21DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		434C06D321C0D1AD000D21DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		434C06DE21C0D1AE000D21DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		434C06B921C0D1AB000D21DB = {
+			isa = PBXGroup;
+			children = (
+				434C06C421C0D1AB000D21DB /* Marcos App */,
+				434C06D921C0D1AD000D21DB /* Marcos AppTests */,
+				434C06E421C0D1AE000D21DB /* Marcos AppUITests */,
+				434C06C321C0D1AB000D21DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		434C06C321C0D1AB000D21DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				434C06C221C0D1AB000D21DB /* Marcos App.app */,
+				434C06D621C0D1AD000D21DB /* Marcos AppTests.xctest */,
+				434C06E121C0D1AE000D21DB /* Marcos AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		434C06C421C0D1AB000D21DB /* Marcos App */ = {
+			isa = PBXGroup;
+			children = (
+				434C06C521C0D1AB000D21DB /* AppDelegate.swift */,
+				434C06C721C0D1AB000D21DB /* ViewController.swift */,
+				434C06C921C0D1AB000D21DB /* Main.storyboard */,
+				434C06CC21C0D1AD000D21DB /* Assets.xcassets */,
+				434C06CE21C0D1AD000D21DB /* LaunchScreen.storyboard */,
+				434C06D121C0D1AD000D21DB /* Info.plist */,
+			);
+			path = "Marcos App";
+			sourceTree = "<group>";
+		};
+		434C06D921C0D1AD000D21DB /* Marcos AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				434C06DA21C0D1AD000D21DB /* Marcos_AppTests.swift */,
+				434C06DC21C0D1AD000D21DB /* Info.plist */,
+			);
+			path = "Marcos AppTests";
+			sourceTree = "<group>";
+		};
+		434C06E421C0D1AE000D21DB /* Marcos AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				434C06E521C0D1AE000D21DB /* Marcos_AppUITests.swift */,
+				434C06E721C0D1AE000D21DB /* Info.plist */,
+			);
+			path = "Marcos AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		434C06C121C0D1AB000D21DB /* Marcos App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 434C06EA21C0D1AE000D21DB /* Build configuration list for PBXNativeTarget "Marcos App" */;
+			buildPhases = (
+				434C06BE21C0D1AB000D21DB /* Sources */,
+				434C06BF21C0D1AB000D21DB /* Frameworks */,
+				434C06C021C0D1AB000D21DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Marcos App";
+			productName = "Marcos App";
+			productReference = 434C06C221C0D1AB000D21DB /* Marcos App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		434C06D521C0D1AD000D21DB /* Marcos AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 434C06ED21C0D1AE000D21DB /* Build configuration list for PBXNativeTarget "Marcos AppTests" */;
+			buildPhases = (
+				434C06D221C0D1AD000D21DB /* Sources */,
+				434C06D321C0D1AD000D21DB /* Frameworks */,
+				434C06D421C0D1AD000D21DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				434C06D821C0D1AD000D21DB /* PBXTargetDependency */,
+			);
+			name = "Marcos AppTests";
+			productName = "Marcos AppTests";
+			productReference = 434C06D621C0D1AD000D21DB /* Marcos AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		434C06E021C0D1AE000D21DB /* Marcos AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 434C06F021C0D1AE000D21DB /* Build configuration list for PBXNativeTarget "Marcos AppUITests" */;
+			buildPhases = (
+				434C06DD21C0D1AE000D21DB /* Sources */,
+				434C06DE21C0D1AE000D21DB /* Frameworks */,
+				434C06DF21C0D1AE000D21DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				434C06E321C0D1AE000D21DB /* PBXTargetDependency */,
+			);
+			name = "Marcos AppUITests";
+			productName = "Marcos AppUITests";
+			productReference = 434C06E121C0D1AE000D21DB /* Marcos AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		434C06BA21C0D1AB000D21DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Benjamin;
+				TargetAttributes = {
+					434C06C121C0D1AB000D21DB = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					434C06D521C0D1AD000D21DB = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 434C06C121C0D1AB000D21DB;
+					};
+					434C06E021C0D1AE000D21DB = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 434C06C121C0D1AB000D21DB;
+					};
+				};
+			};
+			buildConfigurationList = 434C06BD21C0D1AB000D21DB /* Build configuration list for PBXProject "Marcos App" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 434C06B921C0D1AB000D21DB;
+			productRefGroup = 434C06C321C0D1AB000D21DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				434C06C121C0D1AB000D21DB /* Marcos App */,
+				434C06D521C0D1AD000D21DB /* Marcos AppTests */,
+				434C06E021C0D1AE000D21DB /* Marcos AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		434C06C021C0D1AB000D21DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				434C06D021C0D1AD000D21DB /* LaunchScreen.storyboard in Resources */,
+				434C06CD21C0D1AD000D21DB /* Assets.xcassets in Resources */,
+				434C06CB21C0D1AB000D21DB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		434C06D421C0D1AD000D21DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		434C06DF21C0D1AE000D21DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		434C06BE21C0D1AB000D21DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				434C06C821C0D1AB000D21DB /* ViewController.swift in Sources */,
+				434C06C621C0D1AB000D21DB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		434C06D221C0D1AD000D21DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				434C06DB21C0D1AD000D21DB /* Marcos_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		434C06DD21C0D1AE000D21DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				434C06E621C0D1AE000D21DB /* Marcos_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		434C06D821C0D1AD000D21DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 434C06C121C0D1AB000D21DB /* Marcos App */;
+			targetProxy = 434C06D721C0D1AD000D21DB /* PBXContainerItemProxy */;
+		};
+		434C06E321C0D1AE000D21DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 434C06C121C0D1AB000D21DB /* Marcos App */;
+			targetProxy = 434C06E221C0D1AE000D21DB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		434C06C921C0D1AB000D21DB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				434C06CA21C0D1AB000D21DB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		434C06CE21C0D1AD000D21DB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				434C06CF21C0D1AD000D21DB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		434C06E821C0D1AE000D21DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		434C06E921C0D1AE000D21DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		434C06EB21C0D1AE000D21DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Marcos App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "bawnorton.Marcos-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		434C06EC21C0D1AE000D21DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Marcos App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "bawnorton.Marcos-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		434C06EE21C0D1AE000D21DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Marcos AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "bawnorton.Marcos-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Marcos App.app/Marcos App";
+			};
+			name = Debug;
+		};
+		434C06EF21C0D1AE000D21DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Marcos AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "bawnorton.Marcos-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Marcos App.app/Marcos App";
+			};
+			name = Release;
+		};
+		434C06F121C0D1AE000D21DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Marcos AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "bawnorton.Marcos-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Marcos App";
+			};
+			name = Debug;
+		};
+		434C06F221C0D1AE000D21DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Marcos AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "bawnorton.Marcos-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Marcos App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		434C06BD21C0D1AB000D21DB /* Build configuration list for PBXProject "Marcos App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				434C06E821C0D1AE000D21DB /* Debug */,
+				434C06E921C0D1AE000D21DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		434C06EA21C0D1AE000D21DB /* Build configuration list for PBXNativeTarget "Marcos App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				434C06EB21C0D1AE000D21DB /* Debug */,
+				434C06EC21C0D1AE000D21DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		434C06ED21C0D1AE000D21DB /* Build configuration list for PBXNativeTarget "Marcos AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				434C06EE21C0D1AE000D21DB /* Debug */,
+				434C06EF21C0D1AE000D21DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		434C06F021C0D1AE000D21DB /* Build configuration list for PBXNativeTarget "Marcos AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				434C06F121C0D1AE000D21DB /* Debug */,
+				434C06F221C0D1AE000D21DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 434C06BA21C0D1AB000D21DB /* Project object */;
+}
